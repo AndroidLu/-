@@ -1,0 +1,13 @@
+push时git报错 error: failed to push some refs to 'git@gitee.com:git_zn/jianli.git' 解决办法
+git pull gitee master --allow-unrelated-histories
+此时会有一个弹窗，提示你修改一个文档的内容，不用管他，按ESC键
+
+再按SHIFT+;  (SHIFT+;用来输入一个冒号)  再输入wq保存
+
+：wq
+接下来git会把远程仓库再pull一次
+
+最后push
+
+
+地址：https://www.cnblogs.com/xiaoyuzhou55/p/9517987.html
